@@ -102,20 +102,6 @@ public class TableroBuscaminas {
         return listaCasillas;
     }
 
-
-	public static void main(String[] args) {
-
-		TableroBuscaminas tablero = new TableroBuscaminas(7, 7, 4);
-
-		
-		
-		tablero.imprimirTablero();
-        System.out.println("---");
-        tablero.imprimirPistas();
-       
-
-	}
-
 	public Casilla[][] getCasillas() {
 		return casillas;
 	}
